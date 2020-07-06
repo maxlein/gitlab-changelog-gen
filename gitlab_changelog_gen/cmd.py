@@ -1,4 +1,5 @@
 import argparse
+import sys
 
 from gitlab_changelog_gen.config import Config
 from gitlab_changelog_gen.generator import ChangeLogGenerator
@@ -27,3 +28,6 @@ def main():
         gen.generate()
     else:
         parser.print_help()
+
+if __name__ == '__main__':
+    sys.exit(main())
