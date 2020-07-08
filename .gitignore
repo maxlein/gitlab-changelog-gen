@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/gitlab_changelog_gen/.chg-gen.config
